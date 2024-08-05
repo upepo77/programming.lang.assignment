@@ -1,0 +1,26 @@
+FAT (File Allocation Table)
+
+The original file system format.   
+Very simple but limited in file size and overall capacity.
+
+FAT32
+
+An extension of FAT, offering larger file sizes and partitions compared to its predecessors.   
+Widely used for USB drives, SD cards, and other removable media due to its broad compatibility.   
+
+Limitations 
+	maximum file size of 4GB and partition size of 32GB.
+	
+	
+NTFS (New Technology File System)
+
+Developed by Microsoft, NTFS is more advanced than FAT32.   
+Offers larger file sizes, better performance, security features like encryption and access control, and support for journaling (which helps in data recovery).   
+Commonly used on internal hard drives in Windows systems.
+
+
+exFAT (Extended File Allocation Table)
+
+A newer file system designed for flash memory devices like SD cards and USB drives.   
+Combines the advantages of FAT32 (compatibility) with larger file size support and improved performance like NTFS.
+Lacks some advanced features of NTFS like journaling and encryption
